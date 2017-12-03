@@ -1,20 +1,27 @@
 /*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     |
+    \\  /    A nd           | Copyright (C) 2011-2017 OpenFOAM Foundation
+     \\/     M anipulation  |
+-------------------------------------------------------------------------------
 License
-    This file is part of olaFoam Project.
+    This file is a derivative work of OpenFOAM.
 
-    olaFoam is free software: you can redistribute it and/or modify it
+    OpenFOAM is free software: you can redistribute it and/or modify it
     under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    olaFoam is distributed in the hope that it will be useful, but WITHOUT
+    OpenFOAM is distributed in the hope that it will be useful, but WITHOUT
     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
     FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
     for more details.
 
     You should have received a copy of the GNU General Public License
-    along with olaFoam.  If not, see <http://www.gnu.org/licenses/>.
-
+    along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
+\*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*\
 Application
     olaFoam
 
@@ -32,6 +39,35 @@ Description
 
     For a two-fluid approach see twoPhaseEulerFoam.
 
+\*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*\
+| olaFoam Project                                       ll                    |
+|                                                       l l                   |
+|   Coder: Pablo Higuera Caubilla                 ooo   l l     aa            |
+|   Bug reports: phicau@gmail.com                o   o  l l    a  a           |
+|                                                o   o  ll   l a  aa  aa      |
+|                                                 ooo    llll   aa  aa        |
+|                                                                             |
+|                                                FFFFF OOOOO AAAAA M   M      |
+|                                                F     O   O A   A MM MM      |
+|                                                FFFF  O   O AAAAA M M M      |
+|                                                F     O   O A   A M   M      |
+|                                                F     OOOOO A   A M   M      |
+|   -----------------------------------------------------------------------   |
+| References:                                                                 |
+|                                                                             |
+| - Three-dimensional interaction of waves and porous coastal structures      |
+|    using OpenFOAM. Part I: Formulation and validation.                      |
+|    Higuera, P., Lara, J.L. and Losada, I.J. (2014)                          |
+|    Coastal Engineering, Vol. 83, 243-258.                                   |
+|    http://dx.doi.org/10.1016/j.coastaleng.2013.08.010                       |
+|                                                                             |
+| - Three-dimensional interaction of waves and porous coastal structures      |
+|    using OpenFOAM. Part II: Application.                                    |
+|    Higuera, P., Lara, J.L. and Losada, I.J. (2014)                          |
+|    Coastal Engineering, Vol. 83, 259–270.                                   |
+|    http://dx.doi.org/10.1016/j.coastaleng.2013.09.002                       |
+|                                                                             |
 \*---------------------------------------------------------------------------*/
 
 #include "fvCFD.H"
